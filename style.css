@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2cb3f3;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Kablammo", cursive;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  height: 50px;
+  margin-top: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+section {
+  background-color: white;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.rosto {
+  background-color: #f1c29c;
+  width: 40%;
+  height: 50vh;
+  border-radius: 100%;
+}
+.olho1 {
+  width: 5vw;
+  position: relative;
+  right: 100px;
+  left: 50px;
+  bottom: 65px;
+}
+.olho2 {
+  width: 5vw;
+  position: relative;
+  bottom: 60px;
+  left: 100px;
+}
+form {
+  position: relative;
+  top: 30px;
+  right: 70px;
+  height: 7vh;
+}
+input {
+  height: 5vh;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
